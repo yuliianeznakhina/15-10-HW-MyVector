@@ -6,8 +6,6 @@ class MyVector
 	int size;
 	int* arr;
 
-	friend istream& operator>>(istream& is, MyVector& obj);
-
 public:
 	MyVector() :arr(nullptr), size(0) {}
 	MyVector(int s) :size(s), arr(new int[size]) {}
